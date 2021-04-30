@@ -15,7 +15,7 @@ var filename = ""
 var lastTweetId = "";
 client.on('ready', () => {
     console.log("Client: "+client.user.username)
-    client.user.setActivity("Waifu Tools Success", {
+    client.user.setActivity("Success", {
         type: "WATCHING",
         url: ""
     });
